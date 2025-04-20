@@ -610,6 +610,6 @@ export const DataProduct = [
   {
     id: 62,
     name: "Contact US",
-    image: "public/assets/Images/Banner/BannerContact.jpg"
+    image: "public/assets/Images/Banner/call.png"
   }
 ];

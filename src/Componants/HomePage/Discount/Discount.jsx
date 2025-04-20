@@ -15,7 +15,7 @@ const Discount = () => {
     >
       <Box
         component="img"
-        src="src/assets/Images/Banner/Frame_1984082904_1.webp"
+        src="public/assets/Images/Banner/Frame_1984082904_1.webp"
         alt="Discount Banner"
         sx={{
           width: "100%",

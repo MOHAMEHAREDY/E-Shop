@@ -4,13 +4,13 @@ import { Box } from '@mui/material'
 const Brands = () => {
 
   const brand = [
-    { id: 2, name: 'Nike', logo: 'src/assets/Images/brands/brand_1.png' },
-    { id: 3, name: 'Nike', logo: 'src/assets/Images/brands/brand_2.png' },
-    { id: 4, name: 'Nike', logo: 'src/assets/Images/brands/brand_3.png' },
-    { id: 5, name: 'Nike', logo: 'src/assets/Images/brands/brand_4.png' },
-    { id: 6, name: 'Nike', logo: 'src/assets/Images/brands/brand_5.png' },
-    { id: 7, name: 'Nike', logo: 'src/assets/Images/brands/brand_6.png' },
-    { id: 8, name: 'Nike', logo: 'src/assets/Images/brands/brand_7.png' },
+    { id: 2, name: 'Nike', logo: 'public/assets/Images/brands/brand_1.png' },
+    { id: 3, name: 'Nike', logo: 'public/assets/Images/brands/brand_2.png' },
+    { id: 4, name: 'Nike', logo: 'public/assets/Images/brands/brand_3.png' },
+    { id: 5, name: 'Nike', logo: 'public/assets/Images/brands/brand_4.png' },
+    { id: 6, name: 'Nike', logo: 'public/assets/Images/brands/brand_5.png' },
+    { id: 7, name: 'Nike', logo: 'public/assets/Images/brands/brand_6.png' },
+    { id: 8, name: 'Nike', logo: 'public/assets/Images/brands/brand_7.png' },
   ];
 
   return (
