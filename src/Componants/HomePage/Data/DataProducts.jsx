@@ -4,8 +4,8 @@ export const DataProduct = [
     title: "T-Shirt",
     price: "$50",
     image: [
-      "src/assets/Images/t-shirts/ Crew Neck Short.png",
-      "src/assets/Images/t-shirts/ Crew Neck Short.png",
+      "public/assets/Images/t-shirts/ Crew Neck Short.png",
+      "public/assets/Images/t-shirts/ Crew Neck Short.png",
     ],
     discription:
       "High-quality cotton T-shirt with a comfortable fit and modern design",
@@ -15,8 +15,8 @@ export const DataProduct = [
     title: "Jacket",
     price: "$100",
     image: [
-      "src/assets/Images/t-shirts/1 (5).jpg",
-      "src/assets/Images/t-shirts/1 (5).jpg",
+      "public/assets/Images/t-shirts/1 (5).jpg",
+      "public/assets/Images/t-shirts/1 (5).jpg",
     ],
     discription:
       "High-quality cotton T-shirt with a comfortable fit and modern design",
@@ -26,8 +26,8 @@ export const DataProduct = [
     title: "Jacket",
     price: "$100",
     image: [
-      "src/assets/Images/Jacket/final.png",
-      "src/assets/Images/Jacket/final.png",
+      "public/assets/Images/Jacket/final.png",
+      "public/assets/Images/Jacket/final.png",
     ],
     discription:
       "High-quality cotton T-shirt with a comfortable fit and modern design",
@@ -37,8 +37,8 @@ export const DataProduct = [
     title: "Wallett",
     price: "$100",
     image: [
-      "src/assets/Images/Wallett/5.jpg",
-      "src/assets/Images/Wallett/5.jpg",
+      "public/assets/Images/Wallett/5.jpg",
+      "public/assets/Images/Wallett/5.jpg",
     ],
     discription:
       "High-quality cotton T-shirt with a comfortable fit and modern design",
@@ -48,8 +48,8 @@ export const DataProduct = [
     title: "Dress",
     price: "$100",
     image: [
-      "src/assets/Images/Dress/4 (2).jpg",
-      "src/assets/Images/Dress/4 (2).jpg",
+      "public/assets/Images/Dress/4 (2).jpg",
+      "public/assets/Images/Dress/4 (2).jpg",
     ],
     discription:
       "High-quality cotton T-shirt with a comfortable fit and modern design",
@@ -59,8 +59,8 @@ export const DataProduct = [
     title: "Watch",
     price: "$100",
     image: [
-      "src/assets/Images/Watch/final.jpg",
-      "src/assets/Images/Watch/final.jpg",
+      "public/assets/Images/Watch/final.jpg",
+      "public/assets/Images/Watch/final.jpg",
     ],
     discription:
       "High-quality cotton T-shirt with a comfortable fit and modern design",
@@ -70,9 +70,9 @@ export const DataProduct = [
     title: "Rengs",
     price: "$100",
     image: [
-      "src/assets/Images/rengs/1.jpg",
-      "src/assets/Images/rengs/1.jpg",
-      "src/assets/Images/rengs/1.jpg",
+      "public/assets/Images/rengs/1.jpg",
+      "public/assets/Images/rengs/1.jpg",
+      "public/assets/Images/rengs/1.jpg",
     ],
     discription:
       "High-quality cotton T-shirt with a comfortable fit and modern design",
@@ -82,8 +82,8 @@ export const DataProduct = [
     title: "Bag",
     price: "$100",
     image: [
-      "src/assets/Images/Bag/final.jpg",
-      "src/assets/Images/Bag/final.jpg",
+      "public/assets/Images/Bag/final.jpg",
+      "public/assets/Images/Bag/final.jpg",
     ],
     discription:
       "High-quality cotton T-shirt with a comfortable fit and modern design",
@@ -93,8 +93,8 @@ export const DataProduct = [
     title: "Glasses",
     price: "$100",
     image: [
-      "src/assets/Images/Glasses/final.jpg",
-      "src/assets/Images/Glasses/final.jpg",
+      "public/assets/Images/Glasses/final.jpg",
+      "public/assets/Images/Glasses/final.jpg",
     ],
     discription:
       "High-quality cotton T-shirt with a comfortable fit and modern design",
@@ -104,8 +104,8 @@ export const DataProduct = [
     title: "Chire",
     price: "$100",
     image: [
-      "src/assets/Images/categories/categories_1.png",
-      "src/assets/Images/categories/categories_1.png",
+      "public/assets/Images/categories/categories_1.png",
+      "public/assets/Images/categories/categories_1.png",
     ],
     discription:
       "High-quality cotton T-shirt with a comfortable fit and modern design",
@@ -115,8 +115,8 @@ export const DataProduct = [
     title: "Shirt",
     price: "$100",
     image: [
-      "src/assets/Images/t-shirts/4.jpg",
-      "src/assets/Images/t-shirts/4.jpg",
+      "public/assets/Images/t-shirts/4.jpg",
+      "public/assets/Images/t-shirts/4.jpg",
     ],
     discription:
       "High-quality cotton T-shirt with a comfortable fit and modern design",
@@ -126,8 +126,8 @@ export const DataProduct = [
     title: "Bag",
     price: "$100",
     image: [
-      "src/assets/Images/Wallett/3 (6).jpg",
-      "src/assets/Images/Wallett/3 (6).jpg",
+      "public/assets/Images/Wallett/3 (6).jpg",
+      "public/assets/Images/Wallett/3 (6).jpg",
     ],
     discription:
       "High-quality cotton T-shirt with a comfortable fit and modern design",
@@ -137,8 +137,8 @@ export const DataProduct = [
     title: "Bag",
     price: "$100",
     image: [
-      "src/assets/Images/Electrical/Elc3.jpg",
-      "src/assets/Images/Electrical/Elc3.jpg",
+      "public/assets/Images/Electrical/Elc3.jpg",
+      "public/assets/Images/Electrical/Elc3.jpg",
     ],
     discription:
       "High-quality cotton T-shirt with a comfortable fit and modern design",
@@ -148,8 +148,8 @@ export const DataProduct = [
     title: "Bag",
     price: "$100",
     image: [
-      "src/assets/Images/Electrical/Sarp.webp",
-      "src/assets/Images/Electrical/Sarp.webp",
+      "public/assets/Images/Electrical/Sarp.webp",
+      "public/assets/Images/Electrical/Sarp.webp",
     ],
     discription:
       "High-quality cotton T-shirt with a comfortable fit and modern design",
@@ -159,8 +159,8 @@ export const DataProduct = [
     title: "Bag",
     price: "$100",
     image: [
-      "src/assets/Images/Electrical/1001_lqsuhc2egqhbqasv.webp",
-      "src/assets/Images/Electrical/1001_lqsuhc2egqhbqasv.webp",
+      "public/assets/Images/Electrical/1001_lqsuhc2egqhbqasv.webp",
+      "public/assets/Images/Electrical/1001_lqsuhc2egqhbqasv.webp",
     ],
     discription:
       "High-quality cotton T-shirt with a comfortable fit and modern design",
@@ -170,8 +170,8 @@ export const DataProduct = [
     title: "خلاط",
     price: "$100",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     discription: "خلاط لوما بيلا، بقوة 5500 وات ،1001- أحمر",
   },
@@ -180,8 +180,8 @@ export const DataProduct = [
     title: "Bag",
     price: "$100",
     image: [
-      "src/assets/Images/Electrical/Elc1.jpg",
-      "src/assets/Images/Electrical/Elc1.jpg",
+      "public/assets/Images/Electrical/Elc1.jpg",
+      "public/assets/Images/Electrical/Elc1.jpg",
     ],
     discription:
       "High-quality cotton T-shirt with a comfortable fit and modern design",
@@ -191,8 +191,8 @@ export const DataProduct = [
     title: "Bag",
     price: "$100",
     image: [
-      "src/assets/Images/Electrical/Elc2.jpg",
-      "src/assets/Images/Electrical/Elc2.jpg",
+      "public/assets/Images/Electrical/Elc2.jpg",
+      "public/assets/Images/Electrical/Elc2.jpg",
     ],
     discription:
       "High-quality cotton T-shirt with a comfortable fit and modern design",
@@ -201,8 +201,8 @@ export const DataProduct = [
     id: 19,
     name: "Product 1",
     image: [
-      "src/assets/Images/ImagesHeroSection/banner-25.jpg",
-      "src/assets/Images/ImagesHeroSection/banner-25.jpg",
+      "public/assets/Images/ImagesHeroSection/banner-25.jpg",
+      "public/assets/Images/ImagesHeroSection/banner-25.jpg",
     ],
     price: "$100",
     discription:
@@ -212,8 +212,8 @@ export const DataProduct = [
     id: 20,
     name: "Product 2",
     image: [
-      "src/assets/Images/ImagesHeroSection/banner-15.jpg",
-      "src/assets/Images/ImagesHeroSection/banner-15.jpg",
+      "public/assets/Images/ImagesHeroSection/banner-15.jpg",
+      "public/assets/Images/ImagesHeroSection/banner-15.jpg",
     ],
     price: "$100",
     discription:
@@ -223,8 +223,8 @@ export const DataProduct = [
     id: 21,
     name: "Product 3",
     image: [
-      "src/assets/Images/ImagesHeroSection/category-1.jpg.webp",
-      "src/assets/Images/ImagesHeroSection/category-1.jpg.webp",
+      "public/assets/Images/ImagesHeroSection/category-1.jpg.webp",
+      "public/assets/Images/ImagesHeroSection/category-1.jpg.webp",
     ],
     price: "$100",
     discription:
@@ -234,8 +234,8 @@ export const DataProduct = [
     id: 22,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -245,8 +245,8 @@ export const DataProduct = [
     id: 23,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -255,8 +255,8 @@ export const DataProduct = [
     id: 24,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -265,8 +265,8 @@ export const DataProduct = [
     id: 25,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -275,8 +275,8 @@ export const DataProduct = [
     id: 26,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -285,8 +285,8 @@ export const DataProduct = [
     id: 27,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -295,8 +295,8 @@ export const DataProduct = [
     id: 28,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -305,8 +305,8 @@ export const DataProduct = [
     id: 29,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -315,8 +315,8 @@ export const DataProduct = [
     id: 30,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -325,8 +325,8 @@ export const DataProduct = [
     id: 31,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -335,8 +335,8 @@ export const DataProduct = [
     id: 32,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -345,8 +345,8 @@ export const DataProduct = [
     id: 33,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -355,8 +355,8 @@ export const DataProduct = [
     id: 34,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -365,8 +365,8 @@ export const DataProduct = [
     id: 35,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -375,8 +375,8 @@ export const DataProduct = [
     id: 36,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -385,8 +385,8 @@ export const DataProduct = [
     id: 37,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -395,8 +395,8 @@ export const DataProduct = [
     id: 38,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -405,8 +405,8 @@ export const DataProduct = [
     id: 39,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -415,8 +415,8 @@ export const DataProduct = [
     id: 40,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -425,8 +425,8 @@ export const DataProduct = [
     id: 41,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -435,8 +435,8 @@ export const DataProduct = [
     id: 42,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -445,8 +445,8 @@ export const DataProduct = [
     id: 43,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -455,8 +455,8 @@ export const DataProduct = [
     id: 44,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -465,8 +465,8 @@ export const DataProduct = [
     id: 45,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -475,8 +475,8 @@ export const DataProduct = [
     id: 46,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -485,8 +485,8 @@ export const DataProduct = [
     id: 47,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -495,8 +495,8 @@ export const DataProduct = [
     id: 48,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -505,8 +505,8 @@ export const DataProduct = [
     id: 49,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -515,8 +515,8 @@ export const DataProduct = [
     id: 50,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -525,8 +525,8 @@ export const DataProduct = [
     id: 51,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -535,8 +535,8 @@ export const DataProduct = [
     id: 52,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -545,8 +545,8 @@ export const DataProduct = [
     id: 53,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -555,8 +555,8 @@ export const DataProduct = [
     id: 54,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -565,8 +565,8 @@ export const DataProduct = [
     id: 55,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -575,8 +575,8 @@ export const DataProduct = [
     id: 56,
     name: "Product 4",
     image: [
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
-      "src/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
+      "public/assets/Images/Electrical/1791_lc1regla2avuauij_82woaa4omhk0vjkp.webp",
     ],
     price: "$100",
     discription:
@@ -585,31 +585,31 @@ export const DataProduct = [
   {
     id: 57,
     name: "About US",
-    image: "src/assets/Images/BannerAbout/Aboutpic.jpg",
+    image: "public/assets/Images/BannerAbout/Aboutpic.jpg",
   },
   {
     id: 58,
     name: "About US",
-    image: "src/assets/Images/BannerAbout/SectionAbout.jpg",
+    image: "public/assets/Images/BannerAbout/SectionAbout.jpg",
   },
   {
     id: 59,
     name: "Reviewpage",
-    image: "src/assets/Images/Banner/BannerReview.jpg"
+    image: "public/assets/Images/Banner/BannerReview.jpg"
   },
   {
     id: 60,
     name: "Shopping",
-    image: "src/assets/Images/Banner/BannerShopping.jpg"
+    image: "public/assets/Images/Banner/BannerShopping.jpg"
   },
   {
     id: 61,
     name: "Contact US",
-    image: "src/assets/Images/Banner/BannerContact.jpg"
+    image: "public/assets/Images/Banner/BannerContact.jpg"
   },
   {
     id: 62,
     name: "Contact US",
-    image: "src/assets/Images/Banner/BannerContact.jpg"
+    image: "public/assets/Images/Banner/BannerContact.jpg"
   }
 ];
