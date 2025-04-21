@@ -52,7 +52,7 @@ const Footer = () => {
             <Typography variant="subtitle1" fontWeight="bold" gutterBottom>
               Contact Us
             </Typography>
-            <Typography variant="body2" color="#aaa">Email: support@mystore.com</Typography>
+            <Typography variant="body2" color="#aaa">Email: mohamedadelhareidy@gmail.com</Typography>
             <Typography variant="body2" color="#aaa">Phone: +20 106 417 8029</Typography>
           </Box>
 

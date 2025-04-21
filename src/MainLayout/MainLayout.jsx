@@ -7,10 +7,9 @@ import Home from "../Pages/Home/Home";
 import About from "../Pages/About/About";
 import Reviews from "../Pages/Reviews/Reviews";
 import Shop from "../Pages/Shop/Shop";
-import Navbar from "../Componants/HomePage/Navbar/Navbar";
 import Footer from "../Componants/HomePage/Footer/Footer";
 import Contact from "../Pages/Contact/Contact";
-
+import Navbar from "../Pages/Navbar/Navbar";
 
 // MainLayout component for application layout
 const MainLayout = () => {
@@ -18,6 +17,7 @@ const MainLayout = () => {
     <BrowserRouter>
       {/* Navbar component */}
       <Navbar />
+
       <Routes>
         <Route
           path="/"
@@ -29,11 +29,11 @@ const MainLayout = () => {
         />
         <Route path="/home" element={<Home />} />
         <Route path="/login" element={<Home />} />
-        <Route path="/about" element={<About/>}/>
-        <Route path="/reviews" element={<Reviews/>}/>
+        <Route path="/about" element={<About />} />
+        <Route path="/reviews" element={<Reviews />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/shop" element= {<Shop/>}/>
-        <Route path="/Contact" element={<Contact/>}/>
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/Contact" element={<Contact />} />
         {/* Not found route */}
         <Route path="*" element={<Error />} />
       </Routes>

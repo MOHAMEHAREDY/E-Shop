@@ -28,7 +28,7 @@ const OurCustomers = () => {
       id: 3,
       name: "Mohamed Tarek",
       rating: 5,
-      image: "public/assets/customers/customer3.jpg",
+      image: "/assets/customers/customer3.jpg",
       comment: "Excellent customer service and very comfy product.",
     },
   ];

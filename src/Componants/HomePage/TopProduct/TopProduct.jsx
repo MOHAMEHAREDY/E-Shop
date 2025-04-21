@@ -21,6 +21,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "./Styles.css";
 import { DataProduct } from "../Data/DataProducts";
+import { Autoplay, Navigation } from "swiper/modules";
 
 export default function TopProduct() {
   const [value, setValue] = useState(4);
@@ -40,20 +41,35 @@ export default function TopProduct() {
     setQuantity((prev) => Math.max(1, prev + delta));
   };
 
+    // get proudcts from Array DataProduct File
+    const productsid = [19, 20, 21, 10, 11, 12, 1, 2, 3];
+  
+    const filteredProduct = DataProduct.filter((item) =>
+      productsid.includes(item.id)
+    );
+  
   return (
-    <Container maxWidth="xl" sx={{ py: 5 }}>
+    <Container maxWidth="xl" sx={{ py: 2, backgroundColor: "#fff" }}>
       <Swiper
         slidesPerView={1}
-        spaceBetween={10}
+        spaceBetween={8}
         pagination={{ clickable: true }}
         breakpoints={{
-          0: { slidesPerView: 1, spaceBetween: 10 },
-          750: { slidesPerView: 2, spaceBetween: 20 },
-          1000: { slidesPerView: 3, spaceBetween: 30 },
-          1300: { slidesPerView: 4, spaceBetween: 40 },
+          0: { slidesPerView: 2, spaceBetween: 10, pagination: false },
+          750: { slidesPerView: 3, spaceBetween: 20 },
+          1000: { slidesPerView: 4, spaceBetween: 30 },
+          1300: { slidesPerView: 5, spaceBetween: 40 },
         }}
         modules={[Pagination]}
         className="mySwiper"
+        loop={true}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
+        pagination={{ clickable: true }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
       >
         {DataProduct.map((product) => (
           <SwiperSlide key={product.id}>
@@ -61,11 +77,10 @@ export default function TopProduct() {
               onClick={() => handleOpen(product)}
               sx={{
                 width: "100%",
-                maxWidth: 280,
+                maxWidth: 180,
                 mx: "auto",
-                my: 2,
+                my: 1,
                 cursor: "pointer",
-                boxShadow: 3,
                 borderRadius: 2,
                 transition: "0.3s",
                 position: "relative",
@@ -81,7 +96,6 @@ export default function TopProduct() {
                   top: 8,
                   right: 8,
                   backgroundColor: "white",
-                  boxShadow: 1,
                   zIndex: 1,
                   "&:hover": { backgroundColor: "#fff" },
                 }}
@@ -93,8 +107,8 @@ export default function TopProduct() {
               <CardMedia
                 component="img"
                 alt={product.title}
-                height="200"
-                image={product.image[(0, 1)]}
+                height="180"
+                image={product.image[0]}
               />
 
               <CardContent>
@@ -105,10 +119,10 @@ export default function TopProduct() {
                     mb: 1,
                   }}
                 >
-                  <Typography variant="h6" fontWeight="bold">
+                  <Typography variant="subtitle1" fontWeight="bold">
                     {product.title}
                   </Typography>
-                  <Typography variant="subtitle1" color="error">
+                  <Typography variant="subtitle2" color="error">
                     {product.price}
                   </Typography>
                 </Box>
@@ -118,9 +132,9 @@ export default function TopProduct() {
               </CardContent>
 
               <CardActions sx={{ justifyContent: "space-between" }}>
-                <Button size="small" sx={{ fontSize: "12px" }}>
+                <Button size="small" sx={{ fontSize: "11px" }}>
                   <AddShoppingCartIcon fontSize="small" sx={{ mr: 0.5 }} />
-                  Add to Cart
+                  Add
                 </Button>
                 <Rating
                   size="small"
@@ -133,13 +147,14 @@ export default function TopProduct() {
         ))}
       </Swiper>
 
+      {/* Modal section */}
       <Modal open={open} onClose={handleClose}>
         <Box
           sx={{
-            maxWidth: 300,
+            maxWidth: 700,
             width: "90%",
             mx: "auto",
-            mt: 10,
+            mt: 8,
             bgcolor: "background.paper",
             boxShadow: 24,
             borderRadius: 2,
@@ -165,35 +180,62 @@ export default function TopProduct() {
 
           {selectedProduct && (
             <>
-              <Typography variant="h5" gutterBottom>
+              <Typography variant="h5" gutterBottom fontWeight="bold">
                 {selectedProduct.title}
               </Typography>
-              <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
-                <img
-                  src={selectedProduct.image[(0, 1)]}
-                  alt={selectedProduct.title}
-                  style={{ width: "100%", borderRadius: 8 }}
+
+              {/* عرض صورتين جنب بعض */}
+              <Box sx={{ display: "flex", gap: 2, mb: 2 }}>
+                <Box
+                  component="img"
+                  src={selectedProduct.image[0]}
+                  alt="product-img-1"
+                  sx={{
+                    width: "50%",
+                    height: 250,
+                    objectFit: "contain",
+                    borderRadius: 2,
+                  }}
                 />
-                <Typography>{selectedProduct.discription}</Typography>
-                <Typography color="error" fontWeight="bold">
-                  {selectedProduct.price}
-                </Typography>
-                <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
-                  <Button
-                    variant="outlined"
-                    onClick={() => handleQtyChange(-1)}
-                  >
-                    -
-                  </Button>
-                  <Typography>{quantity}</Typography>
-                  <Button variant="outlined" onClick={() => handleQtyChange(1)}>
-                    +
-                  </Button>
-                </Box>
-                <Button variant="contained" startIcon={<AddShoppingCartIcon />}>
-                  Add to cart
+                <Box
+                  component="img"
+                  src={selectedProduct.image[1]}
+                  alt="product-img-2"
+                  sx={{
+                    width: "50%",
+                    height: 250,
+                    objectFit: "contain",
+                    borderRadius: 2,
+                  }}
+                />
+              </Box>
+
+              <Typography sx={{ mb: 1 }}>
+                {selectedProduct.discription}
+              </Typography>
+
+              <Typography color="error" fontWeight="bold" sx={{ mb: 2 }}>
+                {selectedProduct.price}
+              </Typography>
+
+              <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+                <Button variant="outlined" onClick={() => handleQtyChange(-1)}>
+                  -
+                </Button>
+                <Typography>{quantity}</Typography>
+                <Button variant="outlined" onClick={() => handleQtyChange(1)}>
+                  +
                 </Button>
               </Box>
+
+              <Button
+                variant="contained"
+                startIcon={<AddShoppingCartIcon />}
+                fullWidth
+                sx={{ mt: 3 }}
+              >
+                Add to cart
+              </Button>
             </>
           )}
         </Box>

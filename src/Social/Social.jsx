@@ -9,21 +9,21 @@ export default function Social() {
         alignItems: 'center',
         gap: 2,
         justifyContent: "flex-end",
-        color: "black"
+        
     }}>
-      <Link href="http://www.facebook.com" underline="none" target="_blank">
+      <Link href="http://www.facebook.com" underline="none" style={{color: "black"}}>
         <Facebook />
       </Link>
-      <Link href="http://www.twitter.com" underline="hover" target="_blank">
+      <Link href="http://www.twitter.com" underline="hover" style={{color: "black"}}>
         <Twitter />
       </Link>
-      <Link href="http://www.instagram.com" underline="always" target="_blank">
+      <Link href="http://www.instagram.com" underline="always" style={{color: "black"}}>
         <Instagram/>
       </Link>
-      <Link href="http://www.YouTube.com" underline="always" target="_blank">
+      <Link href="http://www.YouTube.com" underline="always" style={{color: "black"}}>
         <YouTube/>
       </Link>
-      <Link href="http://www.Pinterest.com" underline="always" target="_blank">
+      <Link href="http://www.Pinterest.com" underline="always" style={{color: "black"}}>
         <Pinterest/>
       </Link>
     </Box>

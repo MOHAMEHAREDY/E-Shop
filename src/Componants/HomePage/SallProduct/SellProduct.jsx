@@ -5,6 +5,7 @@ import "swiper/css";
 import "./styles.css";
 import { DataProduct } from "../Data/DataProducts";
 import { Link } from "react-router-dom";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const SellProduct = () => {
   // get proudcts from Array DataProduct File
@@ -15,7 +16,7 @@ const SellProduct = () => {
   );
 
   return (
-    <Box sx={{ width: "100%", position: "relative",my: "20px" }}>
+    <Box sx={{ width: "100%", position: "relative", my: "1px" }}>
       {/* Swiper Carousel */}
       <Box sx={{ position: "relative", height: "400px" }}>
         <motion.div
@@ -28,6 +29,16 @@ const SellProduct = () => {
             slidesPerView={3}
             pagination={{ clickable: true }}
             loop={true}
+            centeredSlides={true}
+            autoplay={{
+              delay: 2000,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            navigation={true}
+            modules={[Autoplay, Pagination, Navigation]}
           >
             {filteredProduct.map((item) => (
               <SwiperSlide key={item.id}>
@@ -88,11 +99,10 @@ const SellProduct = () => {
                 display: "inline-block",
                 padding: "10px 20px",
                 textDecoration: "none",
-                backgroundColor: "orangered",
+                backgroundColor: "#ef5350",
                 borderRadius: "8px",
-                marginTop: "8px"
+                marginTop: "8px",
               }}
-    
             >
               Shop Now
             </Link>

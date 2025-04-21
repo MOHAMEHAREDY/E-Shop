@@ -8,22 +8,22 @@ import { motion } from "framer-motion";
 
 const deliveryItems = [
   {
-    icon: <PercentIcon sx={{ fontSize: "3rem" }} />,
+    icon: <PercentIcon sx={{ fontSize: "2rem" }} />,
     title: "Discount",
     subtitle: "every week new sales",
   },
   {
-    icon: <LocalShippingIcon sx={{ fontSize: "3rem" }} />,
+    icon: <LocalShippingIcon sx={{ fontSize: "2rem" }} />,
     title: "Free Delivery",
     subtitle: "100% Free for all orders",
   },
   {
-    icon: <AccessAlarmIcon sx={{ fontSize: "3rem" }} />,
+    icon: <AccessAlarmIcon sx={{ fontSize: "2rem" }} />,
     title: "Great Support 24/7",
     subtitle: "We care your experiences",
   },
   {
-    icon: <SecurityIcon sx={{ fontSize: "3rem" }} />,
+    icon: <SecurityIcon sx={{ fontSize: "2rem" }} />,
     title: "Secure Payment",
     subtitle: "100% Secure Payment Method",
   },
@@ -34,10 +34,9 @@ const Delivery = () => {
     <Paper
       elevation={3}
       sx={{
-        p: { xs: 2, sm: 4 },
+        p: { xs: 2, sm: 2 },
         backgroundColor: "#fff",
         maxWidth: "100%",
-        mx: "auto",
       }}
     >
       <Grid container spacing={{ xs: 4, md: 6 }} justifyContent="center">
@@ -60,14 +59,14 @@ const Delivery = () => {
                     variant="inherit"
                     fontWeight={500}
                     color="#272343"
-                    sx={{ fontSize: { xs: "20px", md: "24px" } }}
+                    sx={{ fontSize: { xs: "14px", md: "16px" } }}
                   >
                     {item.title}
                   </Typography>
                   <Typography
                     variant="inherit"
                     color="#9a9caa"
-                    sx={{ fontSize: { xs: "14px", md: "18px" } }}
+                    sx={{ fontSize: { xs: "14px", md: "16px" } }}
                   >
                     {item.subtitle}
                   </Typography>

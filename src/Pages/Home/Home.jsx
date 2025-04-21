@@ -9,11 +9,11 @@ export default function Home() {
   return (
     <>
       <SellProduct />
-      <Delivery/>
-      <Brands />
+      <Delivery />
       <TopProduct />
       <BestProduct />
       <OurCustomers />
+      <Brands />
     </>
   );
 }
